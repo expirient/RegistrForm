@@ -1,0 +1,25 @@
+{
+  "name": "regform",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expirient/RegistrForm.git"
+  },
+  "author": "Ohorenko V.",
+  "license": "Entessa",
+  "bugs": {
+    "url": "https://github.com/expirient/RegistrForm/issues"
+  },
+  "homepage": "https://github.com/expirient/RegistrForm#readme"
+}
