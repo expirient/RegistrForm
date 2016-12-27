@@ -1,0 +1,224 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: segoe print;
+	background-color: #D3CCD3;
+}
+#container{
+	width: 1200px;
+	background: #B7BEB8;
+	height: 400px;
+	border-radius: 6px;
+	margin: 10px auto;
+	box-shadow: -5px 3px 3px;
+}
+#container h1{
+	transition:1.2s;
+}
+#container h1:hover{
+	color: #A00E0E;
+	transition:0.7s;
+	font-weight: bold;
+}
+#firstDiv{
+	width: 45%;
+	margin: 70px 10px 70px 50px;
+	background: #A5BE61;
+	float: left;
+	height: 250px;
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: -5px 3px 3px;
+}
+#firstDiv #toLogin{
+	padding: 0 55px;
+	font-family: segoe print;
+	font-weight: bold;
+	margin: 10px auto;
+	border-radius: 0 0 12px 12px;
+	box-shadow: -6px 3px 3px;
+	outline: none;
+	transition:0.6s;
+}
+#secondDiv{
+	width: 45%;
+	margin: 70px auto;
+	background: #7B84BE;
+	float: left;
+	height: 250px;
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: -5px 3px 3px;
+}
+#secondDiv #toRegistr{
+	margin: 10px auto;
+	padding: 0 55px;
+	font-family: segoe print;
+	border-radius: 0 0 12px 12px;
+	box-shadow: -6px 3px 3px;
+	font-weight: bold;
+	outline: none;
+	transition:0.6s;
+}
+#secondDiv #toRegistr:hover,
+#firstDiv #toLogin:hover{
+	transition:0.6s;
+	box-shadow: -8px 6px 6px;
+	background-color: #99A2BE;
+	cursor: pointer;
+}
+
+/*===========================================================================================================================*/
+
+#containerForForm{
+	margin: 0 auto;
+	background-color: #B5AED3;
+	width: 1200px;
+	border-radius: 6px;
+	box-shadow: -5px 3px 3px;
+}
+
+#containerForForm #form{
+	margin: 0 auto;
+	padding: 20px 50px 20px 35%;
+	font-family: segoe print;
+	margin: 10px auto;
+	background-color: #779DA0;
+	border-radius: 6px;
+}
+#containerForForm #formLogin{
+	background-color: #8EA077;
+	margin: 0 auto;
+	padding: 20px 50px 20px 35%;
+	font-family: segoe print;
+	margin: 10px auto;
+	border-radius: 6px;
+}
+#containerForForm input[type='text'],
+#containerForForm input[type='password']{
+	display: table;
+	margin: 5px;
+	width: 240px;
+	height: 22px;
+	border-radius: 6px;
+	box-shadow: 3px 3px 3px;
+	font-family: segoe print;
+	font-size: 16px;
+	outline: none;
+	padding: 0 10px;
+	transition:0.6s;
+}
+#containerForForm #btnSubmit,
+#containerForForm #btnReset,
+#containerForForm #close,
+#containerForForm #btnSubmitLogin{
+	width: 240px;
+	height: 26px;
+	font-weight: bold;
+	display: table;
+	font-family: segoe print;
+	text-align: center;
+	border-radius: 6px;
+	margin: 15px 20px;
+	outline: none;
+	box-shadow: 3px 3px 3px;
+	text-align: center;
+	transition:0.6s;
+}
+#containerForForm input[type='text']:hover,
+#containerForForm input[type='password']:hover{
+	box-shadow: 9px 5px 9px;
+	transition:0.6s;
+}
+#containerForForm #btnSubmit:hover,
+#containerForForm #btnReset:hover,
+#containerForForm #close:hover,
+#containerForForm #btnSubmitLogin:hover{
+	box-shadow: 9px 5px 9px;
+	transition:0.6s;
+	background-color: #AAAED3;
+	color: #000;
+	cursor: pointer;
+}
+
+/*===========================================================================================================================*/
+
+#header{
+	width: 1200px;
+	height: 100px;
+	background-color: #B8B2B8;
+	border-radius: 6px;
+	box-shadow: -6px 3px 3px;
+	margin: 0 auto;
+}
+
+#header .logText{
+	float: right;
+	margin: 10px 20px 10px 10px;
+	cursor: pointer;
+	padding: 3px 15px;
+	border-radius: 0 0 12px 12px;
+	box-shadow: -6px 3px 3px #000;
+	transition:0.6s;
+	background-color: #DDDDDD;
+	font-weight: bold;
+	float: right;
+}
+#header #logOut{
+	width: 224px;
+	height: 34px;
+	font-family: segoe print;
+	float: right;
+	margin: 10px 10px;
+	box-shadow: -6px 3px 3px #000;
+	border-radius: 0 0 12px 12px;
+	outline: none;
+	cursor: pointer;
+	transition:0.6s;
+	font-weight: bold;
+}
+#header .logText:hover{
+	box-shadow: -9px 6px 7px;
+	transition:0.6s;
+	background-color: #99A2BE;
+}
+
+#header #logOut:hover{
+	box-shadow: -9px 6px 7px;
+	transition:0.6s;
+	background-color: #99A2BE;
+}
+
+#error{
+	height: 100%;
+	width: 100%;
+	background-color: red;
+	color: #fff;
+	text-align: center;
+	/*margin: 30px auto;*/
+	transition:1.5s;
+	position: fixed;
+}
+#error h1{
+	font-size: 60px;
+	font-family: segoe print;
+	padding-top: 300px;
+}
+#error:hover{
+	background-color: #000;
+	color: #fff;
+	transition:1.5s;
+}
+
+/*===========================================================================================================================*/
+
+#footer{
+	width: 1200px;
+	height: 100px;
+	margin: 10px auto;
+	background-color: #7B7EA0;
+	border-radius: 6px;
+	box-shadow: -6px 3px 3px;
+}
